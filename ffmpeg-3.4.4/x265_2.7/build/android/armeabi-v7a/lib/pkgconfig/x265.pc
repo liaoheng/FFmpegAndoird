@@ -1,0 +1,11 @@
+prefix=/home/liaoheng/ffmpeg-3.4.4/x265_2.7/build/android/armeabi-v7a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: x265
+Description: H.265/HEVC video encoder
+Version: 2.7
+Libs: -L${libdir} -lx265
+Libs.private: /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a -lstdc++ -lm -lgcc -ldl -lgcc -ldl
+Cflags: -I${includedir}

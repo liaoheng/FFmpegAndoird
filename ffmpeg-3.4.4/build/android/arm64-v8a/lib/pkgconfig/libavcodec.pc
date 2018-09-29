@@ -1,0 +1,14 @@
+prefix=/home/liaoheng/ffmpeg-3.4.4/build/android/arm64-v8a
+exec_prefix=${prefix}
+libdir=/home/liaoheng/ffmpeg-3.4.4/build/android/arm64-v8a/lib
+includedir=/home/liaoheng/ffmpeg-3.4.4/build/android/arm64-v8a/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 57.107.100
+Requires: 
+Requires.private: libswresample >= 2.9.100, libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/home/liaoheng/ffmpeg-3.4.4/x265_2.7/build/android/arm64-v8a/lib -lx265 -L/home/liaoheng/ffmpeg-3.4.4/x264/build/android/arm64-v8a/lib -lx264 -lm -ldl -L/home/liaoheng/ffmpeg-3.4.4/fdk-aac-0.1.6/build/android/arm64-v8a/lib -lfdk-aac -lm -lz -pthread -pthread
+Cflags: -I${includedir}
