@@ -1,0 +1,6 @@
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/lib/libx265.a
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/include/x265.h
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/include/x265_config.h
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/lib/libx265.so
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/lib/pkgconfig/x265.pc
+/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/bin/x265

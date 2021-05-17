@@ -1,0 +1,14 @@
+prefix=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a
+exec_prefix=${prefix}
+libdir=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a/lib
+includedir=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.107.100
+Requires: 
+Requires.private: libswscale >= 4.8.100, libavformat >= 57.83.100, libavcodec >= 57.107.100, libswresample >= 2.9.100, libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -L/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/armeabi-v7a/lib -lx265 -L/home/liaoheng/ffmpeg-3.4.5/x264/build/android/armeabi-v7a/lib -lx264 -lm -ldl -L/home/liaoheng/ffmpeg-3.4.5/fdk-aac-0.1.6/build/android/armeabi-v7a/lib -lfdk-aac -lm -lz -pthread -pthread
+Cflags: -I${includedir}

@@ -1,0 +1,47 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/liaoheng/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: 没有那个文件或目录
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: 没有那个文件或目录
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/liaoheng/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: 没有那个文件或目录
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: 没有那个文件或目录
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lstdc++
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lm
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/liaoheng/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN failed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02450/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02450.dir/build.make CMakeFiles/cmTC_02450.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/armeabi-v7a/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02450.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-arm   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-arm/usr/include  -march=armv7-a -mthumb -mfpu=vfpv3-d16 -mfloat-abi=softfp -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_STACK_REALIGN -g -fPIE   -mstackrealign -o CMakeFiles/cmTC_02450.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/armeabi-v7a/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mstackrealign'
+CMakeFiles/cmTC_02450.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02450.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_02450.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/armeabi-v7a/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02450/fast' failed
+make: *** [cmTC_02450/fast] Error 2
+
+Source file was:
+int main() { return 0; }

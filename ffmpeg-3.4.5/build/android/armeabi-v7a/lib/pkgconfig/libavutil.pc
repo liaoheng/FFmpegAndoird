@@ -1,0 +1,14 @@
+prefix=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a
+exec_prefix=${prefix}
+libdir=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a/lib
+includedir=/home/liaoheng/ffmpeg-3.4.5/build/android/armeabi-v7a/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

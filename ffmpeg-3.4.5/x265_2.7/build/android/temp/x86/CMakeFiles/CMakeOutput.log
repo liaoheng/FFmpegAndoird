@@ -1,0 +1,668 @@
+The target system is: Android - 21 - i686
+The host system is: Linux - 4.15.0-88-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b7f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b7f0.dir/build.make CMakeFiles/cmTC_5b7f0.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5b7f0.dir/testCCompiler.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_5b7f0.dir/testCCompiler.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5b7f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b7f0.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_5b7f0.dir/testCCompiler.c.o  -o cmTC_5b7f0 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e23a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e23a.dir/build.make CMakeFiles/cmTC_4e23a.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4e23a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e23a.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o  -o cmTC_4e23a 
+Using built-in specs.
+COLLECT_GCC=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc
+COLLECT_LTO_WRAPPER=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper
+Target: i686-linux-android
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --target=i686-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --with-sysroot=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/
+LIBRARY_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/
+COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_4e23a' '-mtune=intel' '-march=i686'
+ /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs1dpOL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_4e23a /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4e23a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4e23a.dir/build.make CMakeFiles/cmTC_4e23a.dir/build]
+  ignore line: [make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4e23a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e23a.dir/link.txt --verbose=1]
+  ignore line: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o  -o cmTC_4e23a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: i686-linux-android]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --target=i686-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --with-sysroot=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_4e23a' '-mtune=intel' '-march=i686']
+  link line: [ /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs1dpOL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_4e23a /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o]
+    arg [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccs1dpOL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4e23a] ==> ignore
+    arg [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib] ==> dir [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_4e23a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib]
+  collapse library dir [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib] ==> [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x;/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc;/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib;/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9169d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9169d.dir/build.make CMakeFiles/cmTC_9169d.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9169d.dir/feature_tests.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_9169d.dir/feature_tests.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9169d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9169d.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_9169d.dir/feature_tests.c.o  -o cmTC_9169d 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f4bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f4bf.dir/build.make CMakeFiles/cmTC_8f4bf.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8f4bf.dir/feature_tests.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_8f4bf.dir/feature_tests.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8f4bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f4bf.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8f4bf.dir/feature_tests.c.o  -o cmTC_8f4bf 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50817/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50817.dir/build.make CMakeFiles/cmTC_50817.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_50817.dir/feature_tests.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_50817.dir/feature_tests.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_50817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50817.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_50817.dir/feature_tests.c.o  -o cmTC_50817 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdbc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cdbc6.dir/build.make CMakeFiles/cmTC_cdbc6.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cdbc6.dir/testCXXCompiler.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_cdbc6.dir/testCXXCompiler.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cdbc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdbc6.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_cdbc6.dir/testCXXCompiler.cxx.o  -o cmTC_cdbc6  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3f7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3f7b.dir/build.make CMakeFiles/cmTC_a3f7b.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a3f7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3f7b.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3f7b  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+Using built-in specs.
+COLLECT_GCC=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++
+COLLECT_LTO_WRAPPER=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper
+Target: i686-linux-android
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --target=i686-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --with-sysroot=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/
+LIBRARY_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/
+COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_a3f7b' '-mtune=intel' '-march=i686'
+ /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbQteq2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_a3f7b /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a3f7b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a3f7b.dir/build.make CMakeFiles/cmTC_a3f7b.dir/build]
+  ignore line: [make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a3f7b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3f7b.dir/link.txt --verbose=1]
+  ignore line: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3f7b  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: i686-linux-android]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --target=i686-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-arch=i686 --with-tune=intel --with-fpmath=sse --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/f41bed50092f7cd0ad4af2b741f2d34a --with-sysroot=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/f41bed50092f7cd0ad4af2b741f2d34a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&i686-linux-android-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib/:/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_a3f7b' '-mtune=intel' '-march=i686']
+  link line: [ /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2 -plugin /home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbQteq2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -z noexecstack -z relro -z now -pie -o cmTC_a3f7b /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib --gc-sections -z nocopyreloc CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o]
+    arg [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/i686-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbQteq2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3f7b] ==> ignore
+    arg [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x]
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-L/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib] ==> dir [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_a3f7b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a] ==> lib [/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib]
+  collapse library dir [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib] ==> [/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+  implicit libs: [/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a;stdc++;m;gcc;c;dl;gcc]
+  implicit dirs: [/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x;/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc;/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib;/home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a455/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a455.dir/build.make CMakeFiles/cmTC_7a455.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7a455.dir/feature_tests.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_7a455.dir/feature_tests.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a455.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_7a455.dir/feature_tests.cxx.o  -o cmTC_7a455  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aabfa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aabfa.dir/build.make CMakeFiles/cmTC_aabfa.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_aabfa.dir/feature_tests.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_aabfa.dir/feature_tests.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aabfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aabfa.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_aabfa.dir/feature_tests.cxx.o  -o cmTC_aabfa  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f2c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f2c2.dir/build.make CMakeFiles/cmTC_5f2c2.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5f2c2.dir/feature_tests.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_5f2c2.dir/feature_tests.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5f2c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f2c2.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_5f2c2.dir/feature_tests.cxx.o  -o cmTC_5f2c2  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_156e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_156e1.dir/build.make CMakeFiles/cmTC_156e1.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_156e1.dir/CheckIncludeFiles.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_156e1.dir/CheckIncludeFiles.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_156e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_156e1.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_156e1.dir/CheckIncludeFiles.c.o  -o cmTC_156e1 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5a25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5a25.dir/build.make CMakeFiles/cmTC_e5a25.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5a25.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_STRICT_OVERFLOW -g -fPIE   -Wno-strict-overflow -o CMakeFiles/cmTC_e5a25.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e5a25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5a25.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_STRICT_OVERFLOW -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e5a25.dir/src.cxx.o  -o cmTC_e5a25  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c990/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c990.dir/build.make CMakeFiles/cmTC_5c990.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c990.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_NARROWING -g -fPIE   -Wno-narrowing -o CMakeFiles/cmTC_5c990.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5c990
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c990.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_NARROWING -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_5c990.dir/src.cxx.o  -o cmTC_5c990  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_673d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_673d6.dir/build.make CMakeFiles/cmTC_673d6.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_673d6.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_ARRAY_BOUNDS -g -fPIE   -Wno-array-bounds -o CMakeFiles/cmTC_673d6.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_673d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_673d6.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_NO_ARRAY_BOUNDS -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_673d6.dir/src.cxx.o  -o cmTC_673d6  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bdcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bdcc.dir/build.make CMakeFiles/cmTC_4bdcc.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bdcc.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_FAST_MATH -g -fPIE   -ffast-math -o CMakeFiles/cmTC_4bdcc.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4bdcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bdcc.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_FAST_MATH -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_4bdcc.dir/src.cxx.o  -o cmTC_4bdcc  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c118d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c118d.dir/build.make CMakeFiles/cmTC_c118d.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c118d.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_STACK_REALIGN -g -fPIE   -mstackrealign -o CMakeFiles/cmTC_c118d.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c118d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c118d.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_STACK_REALIGN -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_c118d.dir/src.cxx.o  -o cmTC_c118d  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92440/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92440.dir/build.make CMakeFiles/cmTC_92440.dir/build
+make[1]: Entering directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92440.dir/src.cxx.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86   -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_FNO_EXCEPTIONS_FLAG -g -fPIE   -fno-exceptions -o CMakeFiles/cmTC_92440.dir/src.cxx.o -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_92440
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92440.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-g++ --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -funwind-tables -no-canonical-prefixes -fexceptions -frtti -DCC_HAS_FNO_EXCEPTIONS_FLAG -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_92440.dir/src.cxx.o  -o cmTC_92440  "/home/liaoheng/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a" 
+make[1]: Leaving directory '/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.13.02
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d5b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d5b9.dir/build.make CMakeFiles/cmTC_9d5b9.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9d5b9.dir/CheckSymbolExists.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_9d5b9.dir/CheckSymbolExists.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9d5b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d5b9.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_9d5b9.dir/CheckSymbolExists.c.o  -o cmTC_9d5b9 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+File /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f095/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f095.dir/build.make CMakeFiles/cmTC_4f095.dir/build
+make[1]: 进入目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4f095.dir/CheckIncludeFiles.c.o
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86  -isystem /home/liaoheng/android-ndk/platforms/android-21/arch-x86/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_4f095.dir/CheckIncludeFiles.c.o   -c /home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4f095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f095.dir/link.txt --verbose=1
+/home/liaoheng/android-ndk/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-gcc --sysroot=/home/liaoheng/android-ndk/platforms/android-21/arch-x86 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_4f095.dir/CheckIncludeFiles.c.o  -o cmTC_4f095 
+make[1]: 离开目录“/home/liaoheng/ffmpeg-3.4.5/x265_2.7/build/android/temp/x86/CMakeFiles/CMakeTmp”
+
+
